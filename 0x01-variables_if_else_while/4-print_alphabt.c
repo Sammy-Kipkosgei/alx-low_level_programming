@@ -1,16 +1,23 @@
 #include <stdio.h>
-
 /**
- * main - prints all single digit numbers of base
- * 10 starting from 0, followed by a new line
- * Return: Always 0 (Success)
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
+ * Return: 0
  */
 int main(void)
 {
-	int n;
+	char c = 'a';
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
-	printf("\n");
+	while (c <= 'z')
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+		c++;
+	}
+
+	putchar('\n');
 	return (0);
 }
+
