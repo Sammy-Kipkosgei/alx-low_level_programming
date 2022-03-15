@@ -9,7 +9,7 @@
 /**
   * main - Entry point
   *
-  * Return: Always 0
+  * Return: Always (Success)
   */
 int main(void)
 
